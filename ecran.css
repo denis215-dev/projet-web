@@ -1,0 +1,52 @@
+/* Mobile Style */
+@media (max-width: 768px) {
+    .logo {
+        width: 250px;
+        height: 60px;
+    }
+
+    .navbar {
+        padding: 1px 5px;
+        font-size: 12px;
+    }
+
+    .container {
+        margin: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    p{
+        font-size: 13px;
+    }
+}
+
+/* Tablette Style */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        height: 80px;
+    }
+
+    .navbar {
+        padding: 1px 10px;
+    }
+
+    .container {
+        margin: 20px;
+    }
+}
+
+/* Desktop Style */
+@media (min-width: 1024px) {
+    .logo {
+        height: 100px;
+    }
+
+    .navbar {
+        padding: 1px 20px;
+    }
+
+    .container {
+        margin: 30px;
+    }
+}
